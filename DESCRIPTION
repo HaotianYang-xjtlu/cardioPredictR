@@ -1,0 +1,22 @@
+Package: cardioPredictR
+Title: Cardiovascular Disease Risk Classification Using Random Forest
+Version: 1.0.0
+Author: Haotian Yang [aut, cre]
+Maintainer: Haotian Yang <Haotian.Yang22@student.xjtlu.edu.cn>
+Description: 
+    Provides a reproducible R package for classifying cardiovascular disease
+    (CVD) risk using a trained Random Forest model. The package exports a single
+    prediction function that accepts patient-level clinical data and returns
+    categorical risk labels (Low Risk / High Risk). The predictive model and
+    feature engineering pipeline are consistent with those used in the
+    accompanying Shiny application, ensuring reproducible results across
+    different computing environments.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Depends: R (>= 3.5.0)
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+Imports:
+    ranger,
+    dplyr,
+    stats
