@@ -18,7 +18,7 @@ To install the package from GitHub, run:
 
 ``` r
 install.packages("remotes")
-remotes::install_github("HaotianYang/cardioPredictR")
+remotes::install_github("HaotianYang-xjtlu/cardioPredictR")
 ```
 
 ------------------------------------------------------------------------
